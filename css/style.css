@@ -1,0 +1,672 @@
+*{
+	margin: 0; 
+	padding: 0; 
+}
+html{
+	font-size: 16px; 
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #bf9f82;
+	color: #395b6c;
+}
+
+a{
+	color: inherit; 
+	text-decoration: none;
+}
+
+h1{
+	text-align: center; 
+	color: #395b6c; 
+	margin: 10px; 
+}
+
+h2{
+	color: #395b6c;
+	margin-bottom: 5px; 
+}
+
+
+
+#main_container{
+	max-width: 1000px; 
+	width: 90%;
+	margin: 0px auto;
+}
+
+/* Start Top Header */ 
+
+#nav_container{
+	width: 100%;
+	height: 20%; 
+	float: left; 
+}
+
+#logo {
+	width: 148px;
+	height: 170px;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+#top_right_container{
+	max-width: 999px; 
+	overflow: hidden;
+}
+
+#top_links{
+	height: 30px;
+	width: 100%;
+	padding-top: 2%;
+	color: #395b6c; 
+	font-size: 1em; 
+	text-align: right; 
+	float: left;  
+	margin-bottom: 5%; 
+	letter-spacing: .5px; 
+}
+
+#slogan{
+	width: 100%; 
+	float: left; 
+	font-size: 1.475em; 
+	text-align: right; 
+	margin-bottom: 1%;
+	color: #448558;
+	border-bottom: 2px solid #448558; 
+}
+
+#main_links{
+	width: 100%; 
+	height: 37px; 
+	float: left; 
+	text-align: right; 
+	letter-spacing: 1px; 
+}
+
+#main_links ul li:hover, #top_links ul li:hover{
+	text-shadow: 0px 0px 1px #448558;
+}
+
+nav ul{
+	
+}
+
+nav ul li{
+	display: inline;
+	padding: 0px 7px; 
+}
+
+nav a{
+	text-decoration: none;
+	color: #395b6c;
+}
+
+/* End Top Header */
+
+#body_container{
+	background: #FFF3D5;
+	clear: both;
+	-webkit-box-shadow: 0px 1px 6px #000;
+	-moz-box-shadow: 0px 1px 6px #000;
+	box-shadow: 0px 1px 6px #000;
+
+
+}
+
+/* Start Banner Container */ 
+#banner_container{
+	width: 100%;  
+	position: relative; 
+}
+
+#banner_container img {
+	width: 100%;
+	height: 100%;
+}
+
+#header_container {
+	top: 55%;
+	right: 19%;
+	position: absolute;
+	color: transparent;
+}
+
+/* End Banner Container
+
+/* Start of USA Map */ 
+#map_container{
+	margin-top: 50px; 
+	max-width: 1400px;  
+	position: relative; 
+	height: 500px;
+	margin-bottom: 50px; 
+}
+
+#state_container{
+	max-width: 1400px;  
+	position: relative;
+	width: 100%; 
+	height: 700px;  
+
+}
+
+#vmap{
+	margin: 0px auto; 
+	height: 100%; 
+	width: 100%; 
+}
+
+/* end USA Map */
+
+/*Start Slider Container */
+#slider_container{
+	text-align: center; 
+	color: #395b6c; 
+}
+#slider{
+	margin-top: .5%; 
+	margin-bottom: 4%; 
+}
+
+#slider img{
+	width: 250px;
+	height: 202px; 
+	margin: 10px; 
+	-webkit-box-shadow: 1px 1px 4px #000;
+	-moz-box-shadow: 1px 1px 4px #000;
+	box-shadow: 1px 1px 4px #000;
+	border: 5px solid #ecd1b8; 
+}
+/* End Slider Container */ 
+
+/* Start Image Gallery on Listing Page */
+#image_gallery_container{
+	text-align: center; 
+	color: #395b6c; 
+}
+#image_gallery{
+	margin-top: .5%; 
+	margin-bottom: 4%; 
+}
+
+#image_gallery img{
+	width: 250px;
+	height: 200px; 
+	padding: 5px; 
+}
+/* End Image Gallery on Listing Page */ 
+
+/* Start Pick Location Container */
+#pick_location_container{
+	width: 100%; 
+	font-size: 18px; 
+	font-weight: bold; 
+	margin-top: 10%; 
+	margin-bottom: 10%; 
+	color: #395b6c;  
+}
+
+#pick_location{
+	width: 49%; 
+	margin: 0px auto; 
+}
+/* End Pick Location Container */ 
+
+/*Start Listing Content Container *Left* */ 
+#listing_content_container_left{
+	width: 45%; 
+	margin-left: 3%; 
+	padding-bottom: 2%; 
+	overflow: hidden;
+	float: left; 
+}
+
+#listing_content_left{
+	width: 100%; 
+
+}
+/* End Listing Content Container *Left* */
+
+/*Start Listing Content Container Right */ 
+#listing_content_container_right{
+	width: 45%; 
+	margin-left: 1%; 
+	padding-bottom: 2%; 
+	overflow: hidden;
+	float: left; 
+}
+
+#listing_content_right{
+	width: 100%; 
+}
+
+#listing_content_right ul{
+	width: 50%; 
+	margin: 0px auto; 
+	list-style-type: none; 
+}
+
+#listing_content_right ul li{
+	padding: 10px; 
+}
+/* End Listing Content Container Right */
+
+/* Start Footer Container */ 
+#footer_container{
+	width: 100%; 
+	background: #ecd1b8; 
+	overflow: hidden; 
+	border-top: 3px solid #bf9f82;
+}
+
+footer{
+	margin: 0px auto;
+	overflow: hidden; 
+	color: #a59280;
+	text-align: center; 
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li{
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+}
+
+footer ul li a:hover{
+	color: #333; 
+}
+
+#foot{
+	float: left; 
+	width: 33.333%;  
+}
+
+#foot2{
+	float: left; 
+	width: 33.333%; 
+}
+
+#foot3{
+	float: left;
+	width: 33.333%; 
+}
+/* End Footer Container */ 
+
+/*Log in Container */ 
+#login_form{
+	display: none; 
+	width: 200px;  
+	padding: 20px; 
+	margin: 0px auto; 
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+}
+
+#login_form h1{
+	margin-bottom: 5px; 
+}
+
+#login_form form{
+	margin-top: 5px; 
+	width: 80%; 
+	margin: 0px auto; 
+}
+
+#register_form{
+	display: none; 
+	width: 200px;  
+	padding: 20px; 
+	margin: 0px auto; 
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+	position: relative; 
+}
+
+#register_form h1{
+	margin-bottom: 5px; 
+}
+
+#register_form form{
+	margin-top: 5px; 
+	width: 80%; 
+	margin: 0px auto; 
+}
+
+#exit_register, #exit_login, #exit_contactUs{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	background: #ecd1b8;
+	border: 2px solid #6c481b; 
+	color: #6c481b; 
+	margin: 5px; 
+	padding: 0px 4px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	font-weight: bold; 
+}
+
+#exit_register:hover, #exit_login:hover, #exit_contactUs:hover {
+	webkit-box-shadow: 0px 0px 2px #000;
+	-moz-box-shadow: 0px 0px 2px #000;
+	box-shadow: 0px 0px 2px #000;
+	cursor: pointer; 
+}
+
+/*Log in Container */ 
+#contactUs_form{
+	display: none; 
+	width: 200px;  
+	padding: 20px; 
+	margin: 0px auto; 
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+}
+
+#contactUs_form h1{
+	margin-bottom: 5px; 
+}
+
+#contacUs_form form{
+	margin-top: 5px; 
+	width: 80%; 
+	margin: 0px auto; 
+}
+
+#box_container{
+	border: 1px solid #6c481b; 
+	width: 90%; 
+	margin: 10px auto; 
+	-webkit-box-shadow: 0px 0px 4px #ababab;
+	-moz-box-shadow: 0px 0px 4px #ababab;
+}
+
+#find_land{
+	position: relative;
+}
+
+#lease_your_land{
+	position: relative; 
+}
+
+#plus_sign{
+	position: absolute; 
+	top: 0px; 
+	left: 2px; 
+}
+
+#header{
+	text-align: center; 
+	color: #395b6c; 
+	margin: 10px; 
+	font-size: 20px;  
+}
+
+#find_land:hover, #lease_your_land:hover{
+	cursor: pointer; 
+	text-shadow: 0px 0px 1px #448558; 
+}
+
+#find_land:hover img, #lease_your_land:hover img{
+	transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -webkit-transform: rotate(45deg); 
+}
+
+#find_land_content, #lease_your_land_content{
+	display: none; 
+}
+
+/* Start LeaseYourLand CSS */
+#regOrlogin{
+	width: 90%; 
+	margin: 0px auto; 
+}
+
+#reg, #log{
+	border: 2px solid #395b6c; 
+	width: 40%; 
+	margin: 10px auto; 
+	-webkit-box-shadow: 0px 0px 4px #ababab;
+	-moz-box-shadow: 0px 0px 4px #ababab;
+	float: left; 
+	text-align: center; 
+	margin-right: 5%; 
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+	border-radius: 15px; 
+	font-size: 36px; 
+	position: relative; 
+}
+
+#log{
+	margin-right: 0; 
+	margin-left: 10%; 
+}
+
+#reg:hover, #log:hover{
+	cursor: pointer; 
+	text-shadow: 0px 0px 1px #448558; 
+}
+
+#reg:hover img, #log:hover img{
+	transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -webkit-transform: rotate(45deg); 
+}
+/* End LeaseYourLand CSS */ 
+
+/*Log in Container */ 
+#contactUs_form_page{
+	width: 50%;  
+	padding: 20px; 
+	margin: 20px auto; 
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+}
+
+#contactUs_form_page input{
+	margin: 5px; 
+}
+
+#contactUs_form_page h1{
+	margin-bottom: 5px; 
+}
+
+#contacUs_form_page form{
+	margin-top: 5px; 
+	width: 80%; 
+	margin: 0px auto; 
+} 
+
+#regOrlogin{
+	width: 90%; 
+	margin: 0px auto;
+}
+
+#register_form_{
+	width: 40%; 
+	margin-right:  10%; 
+	float: left;  
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+	position: relative; 
+	margin-bottom: 10px; 
+}
+
+#register_form_ h1{
+	margin-bottom: 5px; 
+}
+
+#register_form_ input{
+	margin: 5px; 
+}
+
+#register_form_ form{
+	margin-top: 5px; 
+	width: 100%; 
+	margin: 0px auto; 
+}
+
+/*Log in Container */ 
+#login_form_{
+	width: 40%; 
+	margin-left: 10%;   
+	position: relative; 
+	float: left; 
+	background: #ecd1b8; 
+	color: #6c481b;
+	text-align: center; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+}
+
+#login_form_ h1{
+	margin-bottom: 5px; 
+}
+
+#login_form_ input{
+	margin: 5px; 
+}
+
+#login_form_ form{
+	margin-top: 5px; 
+	width: 100%; 
+	margin: 0px auto; 
+}
+
+#lease_your_land_form{
+	width: 80%; 
+	margin: 0px auto; 
+}
+
+#lease_your_land_{
+	width: 50%;
+	padding: 20px;
+	margin: 20px auto;
+	background: #ecd1b8;
+	color: #6c481b;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 6px #000;
+	-moz-box-shadow: 0px 0px 6px #000;
+	box-shadow: 0px 0px 6px #000;
+}
+
+#faq_full_container{
+	padding: 10px; 
+}
+
+#faq_container{
+	border: 1px solid #6c481b; 
+	width: 90%; 
+	margin: 10px auto; 
+	-webkit-box-shadow: 0px 0px 4px #ababab;
+	-moz-box-shadow: 0px 0px 4px #ababab;
+}
+
+#faq_question1 , #faq_question2, #faq_question3, #faq_question4, #faq_question5, #faq_question6{
+	position: relative;
+}
+
+#faq_question1_content,#faq_question2_content,#faq_question3_content,#faq_question4_content,#faq_question5_content,#faq_question6_content{
+	display: none; 
+}
+
+#faq_question1:hover, #faq_question2:hover, #faq_question3:hover, #faq_question4:hover, #faq_question5:hover, #faq_question6:hover{
+	cursor: pointer; 
+	text-shadow: 0px 0px 1px #448558; 
+}
+
+#faq_container:hover img{
+	transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -webkit-transform: rotate(45deg); 
+}
+
+#legal_container{
+	width: 90%; 
+	margin: 0px auto; 
+}
+
+#legal_content{
+
+}
+
+@media screen and (max-width: 700px){
+	#map_container{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#map_container{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#map_container{
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	
+}
+
+@media screen and (max-width: 300px){
+	#map_container{
+		height: 150px;
+	}
+
+}
